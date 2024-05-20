@@ -33,6 +33,6 @@ for country in countries:
     )
     placement_plot.set_title(f'distribution of placements in {country}')
 
-    for i in range(0,8):
-        placement_plot.patches[i].set_facecolor(cmap(i))
+    # for i in range(0,8):
+    #     placement_plot.patches[i].set_facecolor(cmap(i))
     matplotlib.pyplot.show()
