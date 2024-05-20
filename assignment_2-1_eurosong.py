@@ -16,7 +16,7 @@ def get_contestants_data(what_data: str, country: str):
 
     return data
 
-countries = ["Lithuania", "Sweden", "Netherlands"]
+countries = ["Austria", "Norway", "Netherlands", "Spain"]
 for country in countries:
     data = get_contestants_data('distribution of top place per country', country)
     sns.set_theme()
